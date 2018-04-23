@@ -532,11 +532,11 @@ a {
   padding: 0; }
 
 .l {
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
   @media (min-width: 1025px) {
     .l {
-      max-width: 975px;
-      margin: auto; } }
+      max-width: 975px; } }
 
 .c-btn {
   cursor: pointer; }
@@ -563,11 +563,12 @@ a {
   max-width: 1920px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0 auto; }
   @media (min-width: 1025px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
-      padding: 14vh; } }
+      padding-top: 14vh; } }
   @media (min-width: 1025px) {
     .p-contact__logo {
       width: 29%;
@@ -634,7 +635,7 @@ a {
         font-size: 2.5rem; } }
     @media (min-width: 1025px) {
       .p-contact__name {
-        font-size: 2rem; } }
+        font-size: 1.8rem; } }
     @media (min-width: 1025px) {
       .p-contact__name {
         padding-top: 0.5rem;
@@ -650,7 +651,7 @@ a {
           font-size: 2.5rem; } }
       @media (min-width: 1025px) {
         .p-contact__name span {
-          font-size: 2rem; } }
+          font-size: 1.8rem; } }
       @media (min-width: 1025px) {
         .p-contact__name span {
           padding-top: 0.5rem; } }
@@ -658,7 +659,7 @@ a {
       margin: 0 auto;
       height: 2px;
       width: 6rem;
-      margin-top: 1rem; }
+      margin-top: 1.6vh; }
       @media (min-width: 1025px) {
         .p-contact__name--l:after {
           content: '';
@@ -667,12 +668,12 @@ a {
           height: 2px;
           width: 3rem;
           margin-left: calc(100% - 3rem);
-          margin-top: 1.8rem; } }
+          margin-top: 1.6vh; } }
     .p-contact__name--c:after {
       margin: 0 auto;
       height: 2px;
       width: 5rem;
-      margin-top: 1rem; }
+      margin-top: 1.6vh; }
       @media (min-width: 1025px) {
         .p-contact__name--c:after {
           content: '';
@@ -680,12 +681,12 @@ a {
           background: white;
           height: 2px;
           width: 5rem;
-          margin-top: 1.8rem; } }
+          margin-top: 1.6vh; } }
     .p-contact__name--r:after {
       margin: 0 auto;
       height: 2px;
       width: 6rem;
-      margin-top: 1rem; }
+      margin-top: 1.6vh; }
       @media (min-width: 1025px) {
         .p-contact__name--r:after {
           content: '';
@@ -694,81 +695,81 @@ a {
           height: 2px;
           width: 3rem;
           margin: 0;
-          margin-top: 1.8rem; } }
+          margin-top: 1.6vh; } }
   @media (max-width: 767px) {
     .p-contact__phone {
-      font-size: 1.57rem; } }
+      font-size: 1.47rem; } }
   @media (min-width: 768px) {
     .p-contact__phone {
-      font-size: 1.57rem; } }
+      font-size: 1.37rem; } }
   @media (min-width: 1025px) {
     .p-contact__phone {
-      font-size: 1.57rem; } }
+      font-size: 1.37rem; } }
   @media (max-width: 767px) {
     .p-contact__phone {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (min-width: 768px) {
     .p-contact__phone {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (min-width: 1025px) {
     .p-contact__phone {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (max-width: 767px) {
     .p-contact__email {
-      font-size: 1.57rem; } }
+      font-size: 1.47rem; } }
   @media (min-width: 768px) {
     .p-contact__email {
-      font-size: 1.57rem; } }
+      font-size: 1.37rem; } }
   @media (min-width: 1025px) {
     .p-contact__email {
-      font-size: 1.57rem; } }
+      font-size: 1.37rem; } }
   @media (max-width: 767px) {
     .p-contact__email {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (min-width: 768px) {
     .p-contact__email {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (min-width: 1025px) {
     .p-contact__email {
-      line-height: 1.7rem; } }
+      line-height: 1.6rem; } }
   @media (max-width: 767px) {
     .p-contact__vocation {
-      font-size: 1.9rem; } }
+      font-size: 1.7rem; } }
   @media (min-width: 768px) {
     .p-contact__vocation {
-      font-size: 1.9rem; } }
+      font-size: 1.7rem; } }
   @media (min-width: 1025px) {
     .p-contact__vocation {
-      font-size: 1.9rem; } }
+      font-size: 1.7rem; } }
   @media (max-width: 767px) {
     .p-contact__vocation {
-      line-height: 2.1rem; } }
+      line-height: 2rem; } }
   @media (min-width: 768px) {
     .p-contact__vocation {
-      line-height: 2.1rem; } }
+      line-height: 2rem; } }
   @media (min-width: 1025px) {
     .p-contact__vocation {
-      line-height: 2.1rem; } }
+      line-height: 2rem; } }
   .p-contact__address {
     padding-top: 1vh; }
     @media (max-width: 767px) {
       .p-contact__address {
-        font-size: 1.9rem; } }
+        font-size: 1.7rem; } }
     @media (min-width: 768px) {
       .p-contact__address {
-        font-size: 1.9rem; } }
+        font-size: 1.7rem; } }
     @media (min-width: 1025px) {
       .p-contact__address {
-        font-size: 1.9rem; } }
+        font-size: 1.7rem; } }
     @media (max-width: 767px) {
       .p-contact__address {
-        line-height: 2.1rem; } }
+        line-height: 2rem; } }
     @media (min-width: 768px) {
       .p-contact__address {
-        line-height: 2.1rem; } }
+        line-height: 2rem; } }
     @media (min-width: 1025px) {
       .p-contact__address {
-        line-height: 2.1rem; } }
+        line-height: 2rem; } }
     @media (min-width: 1025px) {
       .p-contact__address {
         padding-top: 2vh; } }
