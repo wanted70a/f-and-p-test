@@ -501,7 +501,8 @@ a img, button {
   outline: none; }
 
 html {
-  font-size: 10px; }
+  font-size: 10px;
+  overflow: hidden; }
   @media (max-width: 767px) {
     html {
       font-size: 1.5625vw; } }
