@@ -565,17 +565,24 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-image: url("../assets/images/cover-tab.png");
+  padding-top: 4vh; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .p-contact {
+      background-image: url("../assets/images/cover-tab.png"); } }
   @media (min-width: 1025px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
       padding-top: 14vh; } }
-  @media (min-width: 1025px) {
-    .p-contact__logo {
-      width: 29%;
-      margin: 0 auto; } }
-  .p-contact__logo svg {
-    widrh: 100%; }
+  .p-contact__logo {
+    width: 20%;
+    margin: 0 auto; }
+    @media (min-width: 1025px) {
+      .p-contact__logo {
+        width: 29%; } }
+    .p-contact__logo svg {
+      width: 100%; }
   .p-contact__title {
     padding-top: 5vh; }
     @media (min-width: 1025px) {
@@ -625,7 +632,7 @@ a {
           text-align: left; } }
   .p-contact__name {
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bentham', serif;
     position: relative;
     margin-bottom: 2vh; }
     @media (max-width: 767px) {
