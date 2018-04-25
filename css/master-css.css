@@ -577,7 +577,7 @@ a {
   @media (min-width: 768px) and (max-width: 1024px) {
     .p-contact {
       background-image: url("../assets/images/cover-tab.png");
-      padding-top: 4.9vh; } }
+      padding-top: 1.9vh; } }
   @media (min-width: 1025px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
@@ -587,7 +587,7 @@ a {
     margin: 0 auto; }
     @media (min-width: 768px) and (max-width: 1024px) {
       .p-contact__logo {
-        width: 21.8%; } }
+        width: 17.8%; } }
     @media (min-width: 1025px) {
       .p-contact__logo {
         width: 29%; } }
