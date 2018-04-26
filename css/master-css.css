@@ -578,7 +578,11 @@ a {
     .p-contact {
       background-image: url("../assets/images/cover-tab.png");
       padding-top: 1.9vh; } }
-  @media (min-width: 1025px) {
+  @media (min-width: 1280px) and (max-width: 1440px) {
+    .p-contact {
+      background-image: url("../assets/images/airplanes-cover.jpg");
+      padding-top: 5.2vh; } }
+  @media (min-width: 1441px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
       padding-top: 14vh; } }
