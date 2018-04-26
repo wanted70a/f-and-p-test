@@ -581,7 +581,7 @@ a {
   @media (min-width: 1280px) and (max-width: 1440px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
-      padding-top: 5.2vh; } }
+      padding-top: 4.2vh; } }
   @media (min-width: 1441px) {
     .p-contact {
       background-image: url("../assets/images/airplanes-cover.jpg");
@@ -592,7 +592,10 @@ a {
     @media (min-width: 768px) and (max-width: 1024px) {
       .p-contact__logo {
         width: 17.8%; } }
-    @media (min-width: 1025px) {
+    @media (min-width: 1280px) and (max-width: 1440px) {
+      .p-contact__logo {
+        width: 26%; } }
+    @media (min-width: 1441px) {
       .p-contact__logo {
         width: 29%; } }
     .p-contact__logo img {
